@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <nav class="navbar ">
+        <a href="https://www.google.com/">
+            <img class="brand" src="/css/images/logo.png" alt="logo">
+        </a>
+        <a class="nav-link" href="index.html">Пошук</a>
+        <a class="nav-link" href="images.html">Пошук Зображення</a>
+    </nav>
+
+    <div class="expanded">
+        <div class="content_title">
+            <h1>Розширений пошук</h1>
+        </div>
+        <div class="content_body">
+            <form action="https://google.com/search" method="get" role="search">
+                <div class="search">
+                    <label class="label">Знайти сторінки, що містять...</label>
+                </div>
+                <div class="search">
+                    <label class="label">усіма цими словами:</label>
+                    <input type="text" name="as_q">
+                </div>
+                <div class="search">
+                    <label class="label">саме цим словом або фразою:</label>
+                    <input  type="text" name="as_epq">
+                </div>
+                <div class="search">
+                    <label class="label">будь-яким із цих слів:</label>
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="search">
+                    <label class="label">жодне з цих слів:</label>
+                    <input type="text" name="as_eq">
+                </div>
+                <div class="search">
+                    <label class="label">числа в діапазоні від:
+                    </label>
+                    <input type="text" name="as_nlo">
+                    <label>до</label>
+                    <input type="text" name="as_nhi">
+                </div>
+<input class="btn-expanded" type="submit" value="Розширений пошук">
+
+            </form>
+        </div>
+
+
+    </div>
+
+</div>
+</body>
+</html>

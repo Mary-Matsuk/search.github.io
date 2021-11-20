@@ -1,0 +1,259 @@
+/*Обнулення*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+body {
+    font-family: arial, sans-serif;
+    color: #202124;
+}
+
+nav {
+    text-align: end;
+}
+
+.nav-link {
+    padding: 15px;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.images {
+    position: relative;
+}
+
+.images span {
+    position: absolute;
+    left: 79%;
+    top: 65%;
+    color: #4285f4;
+}
+
+.logo {
+    max-height: 110px;
+    padding-bottom: 20px;
+}
+
+.form {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: 45%;
+
+}
+
+.form span {
+    position: absolute;
+}
+
+.inline-search {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px 0 40px;
+    transition: 0.5s;
+}
+
+.inline-search:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+label {
+    position: relative;
+}
+
+label svg {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 2;
+}
+
+.btn-submit {
+    text-align: center;
+    padding-top: 15px;
+    height: 70px;
+}
+
+.btn-submit input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.btn-submit input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.brand {
+    max-width: 100px;
+    padding: 15px;
+    float: left;
+}
+
+h1 {
+    color: #d93025;
+    padding: 30px 45px 15px;
+    font-size: 20px;
+}
+
+.content_title {
+    border-bottom: solid 1px #ebebeb;
+}
+
+.content_body {
+    padding: 15px 45px;
+}
+
+.search {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.label {
+    width: 160px;
+}
+
+.search input {
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    margin: 0 15px;
+    width: auto;
+    height: 30px;
+    padding: 1px 8px;
+    display: flex;
+    flex: auto;
+        border-radius: 2px;
+    transition: 0.5s;
+}
+
+.search input:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.btn-expanded {
+     float: right;
+    margin: 10px 15px 0;
+        padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    color: white;
+    border: 1px solid #3079ed;
+    background-color: #4d90fe;
+        border-radius: 2px;
+    transition: 0.5s;
+
+}
+
+.btn-expanded:hover {
+    border: 1px solid #2f5bb7;
+    background-color: #357ae8;
+}
