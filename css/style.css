@@ -96,7 +96,6 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .images {
@@ -228,7 +227,7 @@ h1 {
     padding: 1px 8px;
     display: flex;
     flex: auto;
-        border-radius: 2px;
+    border-radius: 2px;
     transition: 0.5s;
 }
 
@@ -239,18 +238,17 @@ h1 {
 }
 
 .btn-expanded {
-     float: right;
+    float: right;
     margin: 10px 15px 0;
-        padding: 0 16px;
+    padding: 0 16px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
     color: white;
     border: 1px solid #3079ed;
     background-color: #4d90fe;
-        border-radius: 2px;
+    border-radius: 2px;
     transition: 0.5s;
-
 }
 
 .btn-expanded:hover {
